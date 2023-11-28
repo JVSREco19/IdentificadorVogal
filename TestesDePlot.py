@@ -50,6 +50,7 @@ def plot_mfccs(signal, sampling_rate):
   plt.title('MFCCs')
   plt.show()
   
+  
 def load_and_plot_audio(file_path, sampling_rate, duration):
   # Carregar arquivo de áudio usando librosa
   audio_data, original_sampling_rate = librosa.load(file_path, sr=None)
